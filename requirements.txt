@@ -16,8 +16,6 @@ python-multipart==0.0.20
 # Embeddings & retrieval
 faiss-cpu==1.11.0.post1
 sentence-transformers==5.0.0
-numpy==1.26.4
-scipy==1.14.1
 
 # LangChain ecosystem
 langchain==0.3.27
@@ -39,11 +37,4 @@ pydantic-settings==2.10.1
 
 # Utilities
 tiktoken==0.9.0
-
-# Torch for embeddings
-torch==2.5.0
-transformers==4.46.0
-tokenizers==0.20.0
-
-# Optional: to avoid encoding issues in some environments
-charset-normalizer==3.3.2
+python-dotenv==1.1.1
